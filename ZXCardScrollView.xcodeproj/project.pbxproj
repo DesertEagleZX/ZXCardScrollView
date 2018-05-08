@@ -1,0 +1,569 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9C4DEAB420A17BA800F5139A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C4DEAB320A17BA800F5139A /* AppDelegate.m */; };
+		9C4DEAB720A17BA900F5139A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C4DEAB620A17BA900F5139A /* ViewController.m */; };
+		9C4DEABA20A17BA900F5139A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9C4DEAB820A17BA900F5139A /* Main.storyboard */; };
+		9C4DEABC20A17BA900F5139A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9C4DEABB20A17BA900F5139A /* Assets.xcassets */; };
+		9C4DEABF20A17BA900F5139A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9C4DEABD20A17BA900F5139A /* LaunchScreen.storyboard */; };
+		9C4DEAC220A17BA900F5139A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C4DEAC120A17BA900F5139A /* main.m */; };
+		9C4DEACC20A17BA900F5139A /* ZXCardScrollViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C4DEACB20A17BA900F5139A /* ZXCardScrollViewTests.m */; };
+		9C4DEAD720A17BA900F5139A /* ZXCardScrollViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C4DEAD620A17BA900F5139A /* ZXCardScrollViewUITests.m */; };
+		9C4DEAE620A17C0600F5139A /* ZXCardScrollViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C4DEAE520A17C0600F5139A /* ZXCardScrollViewCell.m */; };
+		9C4DEAE920A17CC300F5139A /* ZXCardScrollViewFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C4DEAE820A17CC300F5139A /* ZXCardScrollViewFlowLayout.m */; };
+		9C4DEAEC20A17D4B00F5139A /* ZXCardScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C4DEAEB20A17D4B00F5139A /* ZXCardScrollView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9C4DEAC820A17BA900F5139A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9C4DEAA720A17BA700F5139A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9C4DEAAE20A17BA700F5139A;
+			remoteInfo = ZXCardScrollView;
+		};
+		9C4DEAD320A17BA900F5139A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9C4DEAA720A17BA700F5139A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9C4DEAAE20A17BA700F5139A;
+			remoteInfo = ZXCardScrollView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9C4DEAAF20A17BA700F5139A /* ZXCardScrollView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZXCardScrollView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9C4DEAB220A17BA800F5139A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		9C4DEAB320A17BA800F5139A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		9C4DEAB520A17BA800F5139A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		9C4DEAB620A17BA900F5139A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		9C4DEAB920A17BA900F5139A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9C4DEABB20A17BA900F5139A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9C4DEABE20A17BA900F5139A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9C4DEAC020A17BA900F5139A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9C4DEAC120A17BA900F5139A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9C4DEAC720A17BA900F5139A /* ZXCardScrollViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZXCardScrollViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9C4DEACB20A17BA900F5139A /* ZXCardScrollViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZXCardScrollViewTests.m; sourceTree = "<group>"; };
+		9C4DEACD20A17BA900F5139A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9C4DEAD220A17BA900F5139A /* ZXCardScrollViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZXCardScrollViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9C4DEAD620A17BA900F5139A /* ZXCardScrollViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZXCardScrollViewUITests.m; sourceTree = "<group>"; };
+		9C4DEAD820A17BAA00F5139A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9C4DEAE420A17C0600F5139A /* ZXCardScrollViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZXCardScrollViewCell.h; sourceTree = "<group>"; };
+		9C4DEAE520A17C0600F5139A /* ZXCardScrollViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZXCardScrollViewCell.m; sourceTree = "<group>"; };
+		9C4DEAE720A17CC300F5139A /* ZXCardScrollViewFlowLayout.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZXCardScrollViewFlowLayout.h; sourceTree = "<group>"; };
+		9C4DEAE820A17CC300F5139A /* ZXCardScrollViewFlowLayout.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZXCardScrollViewFlowLayout.m; sourceTree = "<group>"; };
+		9C4DEAEA20A17D4B00F5139A /* ZXCardScrollView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZXCardScrollView.h; sourceTree = "<group>"; };
+		9C4DEAEB20A17D4B00F5139A /* ZXCardScrollView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZXCardScrollView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9C4DEAAC20A17BA700F5139A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9C4DEAC420A17BA900F5139A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9C4DEACF20A17BA900F5139A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9C4DEAA620A17BA700F5139A = {
+			isa = PBXGroup;
+			children = (
+				9C4DEAB120A17BA800F5139A /* ZXCardScrollView */,
+				9C4DEACA20A17BA900F5139A /* ZXCardScrollViewTests */,
+				9C4DEAD520A17BA900F5139A /* ZXCardScrollViewUITests */,
+				9C4DEAB020A17BA700F5139A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9C4DEAB020A17BA700F5139A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9C4DEAAF20A17BA700F5139A /* ZXCardScrollView.app */,
+				9C4DEAC720A17BA900F5139A /* ZXCardScrollViewTests.xctest */,
+				9C4DEAD220A17BA900F5139A /* ZXCardScrollViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9C4DEAB120A17BA800F5139A /* ZXCardScrollView */ = {
+			isa = PBXGroup;
+			children = (
+				9C4DEAB220A17BA800F5139A /* AppDelegate.h */,
+				9C4DEAB320A17BA800F5139A /* AppDelegate.m */,
+				9C4DEAB520A17BA800F5139A /* ViewController.h */,
+				9C4DEAB620A17BA900F5139A /* ViewController.m */,
+				9C4DEAEA20A17D4B00F5139A /* ZXCardScrollView.h */,
+				9C4DEAEB20A17D4B00F5139A /* ZXCardScrollView.m */,
+				9C4DEAE720A17CC300F5139A /* ZXCardScrollViewFlowLayout.h */,
+				9C4DEAE820A17CC300F5139A /* ZXCardScrollViewFlowLayout.m */,
+				9C4DEAE420A17C0600F5139A /* ZXCardScrollViewCell.h */,
+				9C4DEAE520A17C0600F5139A /* ZXCardScrollViewCell.m */,
+				9C4DEAB820A17BA900F5139A /* Main.storyboard */,
+				9C4DEABB20A17BA900F5139A /* Assets.xcassets */,
+				9C4DEABD20A17BA900F5139A /* LaunchScreen.storyboard */,
+				9C4DEAC020A17BA900F5139A /* Info.plist */,
+				9C4DEAC120A17BA900F5139A /* main.m */,
+			);
+			path = ZXCardScrollView;
+			sourceTree = "<group>";
+		};
+		9C4DEACA20A17BA900F5139A /* ZXCardScrollViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				9C4DEACB20A17BA900F5139A /* ZXCardScrollViewTests.m */,
+				9C4DEACD20A17BA900F5139A /* Info.plist */,
+			);
+			path = ZXCardScrollViewTests;
+			sourceTree = "<group>";
+		};
+		9C4DEAD520A17BA900F5139A /* ZXCardScrollViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9C4DEAD620A17BA900F5139A /* ZXCardScrollViewUITests.m */,
+				9C4DEAD820A17BAA00F5139A /* Info.plist */,
+			);
+			path = ZXCardScrollViewUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9C4DEAAE20A17BA700F5139A /* ZXCardScrollView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9C4DEADB20A17BAA00F5139A /* Build configuration list for PBXNativeTarget "ZXCardScrollView" */;
+			buildPhases = (
+				9C4DEAAB20A17BA700F5139A /* Sources */,
+				9C4DEAAC20A17BA700F5139A /* Frameworks */,
+				9C4DEAAD20A17BA700F5139A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZXCardScrollView;
+			productName = ZXCardScrollView;
+			productReference = 9C4DEAAF20A17BA700F5139A /* ZXCardScrollView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9C4DEAC620A17BA900F5139A /* ZXCardScrollViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9C4DEADE20A17BAA00F5139A /* Build configuration list for PBXNativeTarget "ZXCardScrollViewTests" */;
+			buildPhases = (
+				9C4DEAC320A17BA900F5139A /* Sources */,
+				9C4DEAC420A17BA900F5139A /* Frameworks */,
+				9C4DEAC520A17BA900F5139A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9C4DEAC920A17BA900F5139A /* PBXTargetDependency */,
+			);
+			name = ZXCardScrollViewTests;
+			productName = ZXCardScrollViewTests;
+			productReference = 9C4DEAC720A17BA900F5139A /* ZXCardScrollViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9C4DEAD120A17BA900F5139A /* ZXCardScrollViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9C4DEAE120A17BAA00F5139A /* Build configuration list for PBXNativeTarget "ZXCardScrollViewUITests" */;
+			buildPhases = (
+				9C4DEACE20A17BA900F5139A /* Sources */,
+				9C4DEACF20A17BA900F5139A /* Frameworks */,
+				9C4DEAD020A17BA900F5139A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9C4DEAD420A17BA900F5139A /* PBXTargetDependency */,
+			);
+			name = ZXCardScrollViewUITests;
+			productName = ZXCardScrollViewUITests;
+			productReference = 9C4DEAD220A17BA900F5139A /* ZXCardScrollViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9C4DEAA720A17BA700F5139A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = SWT;
+				TargetAttributes = {
+					9C4DEAAE20A17BA700F5139A = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+					9C4DEAC620A17BA900F5139A = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 9C4DEAAE20A17BA700F5139A;
+					};
+					9C4DEAD120A17BA900F5139A = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 9C4DEAAE20A17BA700F5139A;
+					};
+				};
+			};
+			buildConfigurationList = 9C4DEAAA20A17BA700F5139A /* Build configuration list for PBXProject "ZXCardScrollView" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9C4DEAA620A17BA700F5139A;
+			productRefGroup = 9C4DEAB020A17BA700F5139A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9C4DEAAE20A17BA700F5139A /* ZXCardScrollView */,
+				9C4DEAC620A17BA900F5139A /* ZXCardScrollViewTests */,
+				9C4DEAD120A17BA900F5139A /* ZXCardScrollViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9C4DEAAD20A17BA700F5139A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9C4DEABF20A17BA900F5139A /* LaunchScreen.storyboard in Resources */,
+				9C4DEABC20A17BA900F5139A /* Assets.xcassets in Resources */,
+				9C4DEABA20A17BA900F5139A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9C4DEAC520A17BA900F5139A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9C4DEAD020A17BA900F5139A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9C4DEAAB20A17BA700F5139A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9C4DEAE920A17CC300F5139A /* ZXCardScrollViewFlowLayout.m in Sources */,
+				9C4DEAEC20A17D4B00F5139A /* ZXCardScrollView.m in Sources */,
+				9C4DEAB720A17BA900F5139A /* ViewController.m in Sources */,
+				9C4DEAC220A17BA900F5139A /* main.m in Sources */,
+				9C4DEAB420A17BA800F5139A /* AppDelegate.m in Sources */,
+				9C4DEAE620A17C0600F5139A /* ZXCardScrollViewCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9C4DEAC320A17BA900F5139A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9C4DEACC20A17BA900F5139A /* ZXCardScrollViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9C4DEACE20A17BA900F5139A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9C4DEAD720A17BA900F5139A /* ZXCardScrollViewUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9C4DEAC920A17BA900F5139A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9C4DEAAE20A17BA700F5139A /* ZXCardScrollView */;
+			targetProxy = 9C4DEAC820A17BA900F5139A /* PBXContainerItemProxy */;
+		};
+		9C4DEAD420A17BA900F5139A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9C4DEAAE20A17BA700F5139A /* ZXCardScrollView */;
+			targetProxy = 9C4DEAD320A17BA900F5139A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9C4DEAB820A17BA900F5139A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9C4DEAB920A17BA900F5139A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9C4DEABD20A17BA900F5139A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9C4DEABE20A17BA900F5139A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9C4DEAD920A17BAA00F5139A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		9C4DEADA20A17BAA00F5139A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9C4DEADC20A17BAA00F5139A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ZXCardScrollView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sanpingchuangfu.ZXCardScrollView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9C4DEADD20A17BAA00F5139A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ZXCardScrollView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sanpingchuangfu.ZXCardScrollView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		9C4DEADF20A17BAA00F5139A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ZXCardScrollViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sanpingchuangfu.ZXCardScrollViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZXCardScrollView.app/ZXCardScrollView";
+			};
+			name = Debug;
+		};
+		9C4DEAE020A17BAA00F5139A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ZXCardScrollViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sanpingchuangfu.ZXCardScrollViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZXCardScrollView.app/ZXCardScrollView";
+			};
+			name = Release;
+		};
+		9C4DEAE220A17BAA00F5139A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ZXCardScrollViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sanpingchuangfu.ZXCardScrollViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ZXCardScrollView;
+			};
+			name = Debug;
+		};
+		9C4DEAE320A17BAA00F5139A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ZXCardScrollViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sanpingchuangfu.ZXCardScrollViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ZXCardScrollView;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9C4DEAAA20A17BA700F5139A /* Build configuration list for PBXProject "ZXCardScrollView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9C4DEAD920A17BAA00F5139A /* Debug */,
+				9C4DEADA20A17BAA00F5139A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9C4DEADB20A17BAA00F5139A /* Build configuration list for PBXNativeTarget "ZXCardScrollView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9C4DEADC20A17BAA00F5139A /* Debug */,
+				9C4DEADD20A17BAA00F5139A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9C4DEADE20A17BAA00F5139A /* Build configuration list for PBXNativeTarget "ZXCardScrollViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9C4DEADF20A17BAA00F5139A /* Debug */,
+				9C4DEAE020A17BAA00F5139A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9C4DEAE120A17BAA00F5139A /* Build configuration list for PBXNativeTarget "ZXCardScrollViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9C4DEAE220A17BAA00F5139A /* Debug */,
+				9C4DEAE320A17BAA00F5139A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9C4DEAA720A17BA700F5139A /* Project object */;
+}
